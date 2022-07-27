@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('error') {
       steps {
-        build 'hw1'
+        build 'HW1'
       }
     }
 
