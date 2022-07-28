@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('error') {
+    stage('Run Job') {
       steps {
         build 'HW1'
       }
