@@ -4,11 +4,3 @@
     - name: Print message
       debug:
         msg: Hello Ansible World
-    - name: Install docker.
-      package:
-      name: docker-ce
-      state: present
-    - name: Start docker service
-      service:
-      name: docker
-      state: started
